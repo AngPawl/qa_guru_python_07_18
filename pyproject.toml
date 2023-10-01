@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pythonproject"
+version = "0.1.0"
+description = "Project for Lesson 18"
+authors = ["Anhelina Babareka <anhielina.babareka@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "7.4.2"
+selene = "2.0.0rc4"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.17.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
